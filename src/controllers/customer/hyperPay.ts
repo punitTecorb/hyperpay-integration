@@ -10,7 +10,7 @@ function NormalCheckout(data:any):Promise<any> {
         try {
             const req_data = data;
             var merchantId = req_data.merchantId;// Unique Identifire         
-            var path = '/v1/checkouts';
+            var path = '/v1/checkouts'; // Check url
             const obj:any = {
                 "testMode":'EXTERNAL',
                 "entityId": req_data.entityId,// According to card
