@@ -9,7 +9,7 @@ function NormalCheckout(data:any):Promise<any> {
     return new Promise(async (resolve, reject) => {
         try {
             const req_data = data;
-            var merchantId = req_data.merchantId;// Unique Identifire         
+            var merchantId = req_data.merchantId;// Unique For every payment         
             var path = '/v1/checkouts'; // Check url
             const obj:any = {
                 "testMode":'EXTERNAL',
