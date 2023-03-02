@@ -1,7 +1,8 @@
-## HyperPay payment getway in nodejs using TypeScript
+## HyperPay payment gateway using nodejs with TypeScript
 
 ## Introduction
-    HyperPay payment getway in node js using TypeScript.HyperPay payment getway used for payment in soudi. HyperPay payment getway provide method for create checkout,verify Payment and Refund payment.
+    HyperPay payment gateway using node js with TypeScript.We are providing demo api for create payment.
+    HyperPay payment gateway used for payment in saudi. HyperPay payment gateway provide method for create checkout,verify Payment and Refund payment.
 
     1. Create checkout methods-:
         Create checkout method used for create checkoutId. For create checkout we need to provide entityId,Payment Amount,
