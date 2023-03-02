@@ -4,14 +4,14 @@
     HyperPay payment gateway using node js with TypeScript.We are providing demo api for create payment.
     HyperPay payment gateway used for payment in saudi. HyperPay payment gateway provide method for create checkout,verify Payment and Refund payment.
 
-    1. Create checkout methods-:
+    1. Create checkout methods :-
         Create checkout method used for create checkoutId. For create checkout we need to provide entityId,Payment Amount,
         merchantId,currency,user givenName, user surname,user postcode, user state,user city,user street,user country and hyperPay authorization token.
 
-    2. Verify payment method -:
+    2. Verify payment method :-
         Verify payment method used for verify payment like - Transaction pending/done/cancel.For verify payment we need to provide paymentId.we get paymentId after complete payment process.
 
-    3. Refund payment method -:
+    3. Refund payment method :-
         Refund payment method used for refund payment to customer. For refund payment we need to provide paymentId(get from payment details),refund amount,entityId(payment entityId according to card),currency,hyperpay authorization token
     
       
